@@ -1,0 +1,40 @@
+﻿{
+  "run_id": "string",
+  "timestamp_utc": "string",
+  "experiment_version": "string",
+  "query_id": "string",
+  "query_type": "string",
+  "query_text": "string",
+  "branch": "A|B",
+  "top_k": "number",
+  "metadata_filter_on": "boolean",
+  "rerank_on": "boolean",
+  "prompt_version": "string",
+  "retrieval": {
+    "retrieved_chunk_ids": ["string"],
+    "retrieved_doc_ids": ["string"],
+    "scores": ["number"]
+  },
+  "llm": {
+    "model": "string",
+    "temperature": "number",
+    "prompt_tokens": "number",
+    "completion_tokens": "number",
+    "total_tokens": "number"
+  },
+  "latency_ms": {
+    "retrieval": "number",
+    "llm": "number",
+    "total": "number"
+  },
+  "evaluation": {
+    "hit_at_k": "number",
+    "mrr": "number",
+    "groundedness": "number",
+    "unsupported_claims": "number",
+    "correct": "boolean"
+  },
+  "cost_eur": {
+    "per_query": "number"
+  }
+}

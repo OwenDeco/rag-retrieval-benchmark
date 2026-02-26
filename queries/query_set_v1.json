@@ -1,0 +1,8 @@
+﻿[
+  {
+    "query_id": "Q001",
+    "type": "lookup",
+    "query_text": "PLACEHOLDER",
+    "expected_doc_ids": ["DOC_PLACEHOLDER"]
+  }
+]
