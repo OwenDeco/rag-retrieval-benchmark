@@ -1,0 +1,7 @@
+﻿{
+  "pipeline_version": "v1",
+  "chunk_size_tokens": 500,
+  "overlap_tokens": 100,
+  "normalization": "whitespace_v1",
+  "language": "en"
+}
